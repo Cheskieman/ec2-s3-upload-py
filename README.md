@@ -13,15 +13,22 @@
   #### Instructions on How to upload a Python File to an EC2 instance & S3 bucket.
 
 
-  1. Launch an EC2 Instance> Create an IAM Role with Full S3 access> Attach the Role to Your EC2 Instance>Create an S3 Bucket
-  2. Prepare your Python Script & Connect to the EC2 Instance using EC2 Instance Connect>Create a Python File to Paste Your Python Script in the EC2 Instance Connect terminal
-  3. Make the Script Executable> Create an Empty File to Upload> Add Content to that File.
-  4. Create again same Python File to paste again same Python Script in the EC2 Instance Connect terminal
-  5. Make the Script Executable> Create an Empty File to Upload> Add Content to that File.
-  6. Install additional required Python Library command & Install command to intergrate EC2 Terminal with S3 bUCKET
-  7. Create a New Folder Inside Your S3 Bucket
-  8. Back in the EC2 Terminal, Create a Test File & Run the Upload Script
-  9. Verify inside Your S3 Bucket if the Test File Was Created.
+  * Launch an EC2 Instance
+  * Create an IAM Role with Full S3 access
+  * Attach the Role to Your EC2 Instance>Create an S3 Bucket
+  * Prepare your Python Script & Connect to the EC2 Instance using EC2 Instance Connect
+  * Create a Python File to Paste Your Python Script in the EC2 Instance Connect terminal
+  * Make the Script Executable
+  *  Create an Empty File to Upload
+  *  Add Content to that File.
+  * Create again same Python File to paste again same Python Script in the EC2 Instance Connect terminal
+  * Make the Script Executable>
+  *  Create an Empty File to Upload> Add Content to that File.
+  * Install additional required Python Library command & Install command to intergrate EC2 Terminal with S3 bUCKET
+  * Create a New Folder Inside Your S3 Bucket
+  * Back in the EC2 Terminal.
+  * Create a Test File & Run the Upload Script
+  * Verify inside Your S3 Bucket if the Test File Was Created.
 
  ##### Contribution Policy
 This project is not accepting external contributions, including pull requests or feature requests.
